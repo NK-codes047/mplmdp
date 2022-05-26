@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home</title>
+</head>
+<style>
+    /* .uploads{
+        display: flex;
+        flex-direction: column;
+    } */
+</style>
+<body>
+    <h1 align="center"><a href="#">Admin Panel</a></h1>
+    <h4 align="center">Welcome</h4>
+    <?php if($session) echoo "<h4 align="center">$admin_name</h4>"" ?>
+    <ol>
+        <li><a href="#">Log Out</a></li>
+        <li><a href="#">Compleated</a></li>
+        <li><a href="#">Pending Payments</a></li>
+        <li><a href="#">Pending Downloads</a></li>
+        <li><a href="#">Pending Uploads</a></li>
+    </ol>
+    
+    <div class="uploads">
+      <h2>To Upload:-</h2>
+      <table>
+          <tr>
+              <td>....</td>
+          </tr>
+          <tr><td>.....</td></tr>
+          <tr><td>.....</td></tr>
+          <tr><td>.....</td></tr>
+
+      </table>
+    </div>
+</body>
+</html>

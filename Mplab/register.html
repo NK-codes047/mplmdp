@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<style>
+    *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(79, 54, 54);
+}
+
+.container{
+    border-radius: 20px;
+    margin: 10%;
+    padding: 5%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+h2, input{
+    margin: 10px;
+    background-color: aqua;
+}
+input{
+    border: 1px solid black ;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: white;
+}
+#submit{
+    border-radius: 8px;
+    background-color: lawngreen;
+    border: none;
+    padding: 7px;
+    font-weight: bolder;
+}
+#submit:hover{
+    background-color: yellow;
+}
+
+</style>
+<body>
+    <div class="container">
+        <h2>New Admin Register:</h2>
+        <br><hr>
+        <input type="text" name="name" id="name" placeholder="Enter your Full Name">
+        <input type="email" name="name" id="email" placeholder="Enter your Email">
+        <input type="phone" name="phone" id="phone" placeholder="Enter your Phone Number">
+        <input type="password" name="pass" id="pass" placeholder="Set your Passward">
+        <input type="cpass" name="cpass" id="cpass" placeholder="Confirm your Passward">
+        <input type="submit" id="submit" value="Register">
+    </div>
+</body>
+</html>
